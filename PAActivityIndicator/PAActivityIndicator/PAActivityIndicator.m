@@ -43,6 +43,7 @@
         textLabel.numberOfLines = 0;
         textLabel.text = text;
         textLabel.font = [UIFont fontWithName:@"HelveticaNeue-Medium" size:11];
+        textLabel.minimumScaleFactor = .6;
         textLabel.textColor = [UIColor colorWithWhite:1 alpha:.8];
         textLabel.textAlignment = NSTextAlignmentCenter;
         [self addSubview:textLabel];
