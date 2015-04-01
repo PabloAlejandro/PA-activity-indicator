@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    activityIndicator = [[PAActivityIndicator alloc] initInView:self.view title:@"PAActivityIndicator with text"];
+    activityIndicator = [[PAActivityIndicator alloc] initInView:self.view title:@"Sample title"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
